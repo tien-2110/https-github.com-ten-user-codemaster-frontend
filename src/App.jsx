@@ -6,6 +6,7 @@ import Toast from './components/Toast';
 import LessonPreviewModal from './components/LessonPreviewModal';
 import CertificateModal from './components/CertificateModal';
 import AuthModal from './components/AuthModal';
+import ChatWidget from './components/ChatWidget';
 
 import HomePage from './pages/HomePage';
 import CourseDetailPage from './pages/CourseDetailPage';
@@ -40,10 +41,11 @@ function AppContent() {
 
       <Footer />
 
-      {/* Global Modals & Notifications */}
+      {/* Global Modals, Notifications & Chatbot */}
       <LessonPreviewModal />
       <CertificateModal />
       <AuthModal />
+      <ChatWidget />
       <Toast />
     </div>
   );
